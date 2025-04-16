@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    background-color: rgb(218, 218, 218);
+}
+main{
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
+    gap: 20px;
+}
+.tool_bar{
+    display: flex;
+    gap: 10px;
+}
+h1{
+   text-align: center; 
+}
+.tool_bar_child{
+    height: 35px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    font-weight: bold;
+}
+.content{
+    width: 250px;
+}
+.date{
+    width: 200px;
+}
+.status{
+    width: 150px;
+}
+.title{
+    font-weight: bold;
+    background-color: rgb(223, 223, 223);
+}
+.display_fomat{
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px;
+}
+.submit_button{
+    background-color: rgb(56, 127, 235);
+    color: white;
+    border: none;
+}
+button:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+}
+button:active{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+/* .list{
+    display: flex;
+    font-size: 16px;
+    padding: 10px 10px;
+    gap: 20px;
+} */
+.course_id{
+    width: 10px;
+}
+.course_content{
+    text-align: start;
+    width: 250px;
+}
+.course_date{
+    width: 100px;
+}
+.course_status{
+    width: 100px;
+}
+.course_assign{
+    width: 150px;
+}
+.course_action{
+    display: flex;
+    gap: 50px;
+    width: 150px; 
+}
